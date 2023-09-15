@@ -1,0 +1,73 @@
+header
+    background color-bg-blanco
+    box-shadow sombra
+    padding 16px 0
+    position fixed
+    width 100%
+    left 0
+    top 0
+    z-index 9
+    .logo
+        width 170px
+    .row
+        margin 0
+    nav
+        background none
+        box-shadow none
+        margin 0
+        padding 0
+        ul
+            float right 
+            margin 5px 0 0 
+            li
+                a
+                    font-family 'Instrument Sans', sans-serif
+                    font-size 16px
+                    color color-texto-titulo
+                    font-weight 600
+                    &:hover
+                        background none
+                        color color-texto-link
+    .login, .sidenav-trigger
+        background none 
+        border none
+        color color-texto-link
+        font-family 'Instrument Sans', sans-serif
+        font-size 16px
+        font-weight 600
+        height 64px
+        margin 5px 0 0 
+        cursor pointer
+        i
+            margin 0 10px 0 0
+    .sidenav-trigger
+        display none
+        float right
+        i
+            display inline-block
+            vertical-align middle
+            font-size 32px
+#modalogin
+    .modal-content
+        text-align center
+        input
+            text-align center
+    .modal-header
+        a
+            font-size 20px
+            color color-texto-titulo
+@media (max-width: 1750px)
+    header
+        nav
+            ul
+                li
+                    a
+                        padding 0 10px
+@media (max-width: 1600px)
+    header
+        .menu-desck
+            display none
+        .sidenav-trigger
+            display block
+        .login
+            display none

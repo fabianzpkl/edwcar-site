@@ -1,0 +1,119 @@
+//--PLUGIN NIB--//
+@import 'nib/vendor'
+vendor-preixes = o ms moz webkit official
+@import 'nib/gradients'
+//--IMPORTS--//
+@import "variants.styl"
+@import "header.styl"
+@import "footer.styl" 
+@import "components.styl"
+body
+    font-family 'Poppins', sans-serif
+    color color-texto-parrafo
+    font-size 14px
+strong
+    font-weight bold
+h1, h2, h3, h4, h5, h6
+    font-family 'Instrument Sans', sans-serif
+    font-weight 600
+    color color-texto-titulo
+h1
+    font-size 60px
+h2
+    font-size 40px
+h3
+    font-size 35px
+h4
+    font-size 28px
+h5
+    font-size 20px
+h6
+    font-size 16px
+section
+    padding 64px 0
+main
+    margin 100px auto 0 !important
+    a
+        color color-texto-link
+        text-decoration underline
+    ul
+        padding 0 0 0 32px !important
+        li
+            margin 0 0 16px 0
+    ul.dec
+        padding 0 0 0 32px !important
+        li
+            list-style-image: url('../images/bullet.svg');
+            margin 0 0 16px 0
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea
+    border-bottom 1px solid color-texto-parrafo
+    color color-texto-parrafo
+    font-size 14px
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+    border-bottom 1px solid color-texto-link
+    box-shadow 0 1px 0 0 color-texto-link
+[type="checkbox"]+span:not(.lever)
+    height auto
+    line-height initial
+    font-size 12px
+    margin 0 0 16px 0
+.btn
+    background color-prim-verde
+    padding 16px 32px
+    border-radius 8px
+    font-family 'Instrument Sans', sans-serif
+    font-size 16px
+    box-shadow sombra
+    height auto
+    line-height auto
+    font-weight 600
+    text-transform none
+    font-size 18px
+    &:hover
+        box-shadow sombra
+.btn-black
+    background color-prim-gris 
+.btn-yellow
+    background color-secun-amarillo
+    color color-texto-titulo 
+.btn-white
+    background #fff
+    color color-texto-titulo 
+.btn-full
+    width 100% 
+.bg-gris
+    background color-bg-gris
+.bg-verde
+    background color-bg-verde
+.bg-gris-oscuro
+    background color-bg-gris-oscuro
+    h1,h2,h3,h4,h5,h6,p
+        color color-texto-blanco
+hr
+    margin 32px 0
+.price
+    color color-prim-verde
+select
+    display block
+    border none
+    border-bottom 1px solid #595959
+    color color-texto-parrafo
+    font-size 14px
+    padding 0
+table
+    table
+        tr
+            border-bottom none
+.text-small
+    font-size 12px
+@media (max-width: 600px)
+    h1
+        font-size 50px
+    h2
+        font-size 35px
+    h3
+        font-size 30px
+    h4
+        font-size 25px
+    .btn
+        width 100%

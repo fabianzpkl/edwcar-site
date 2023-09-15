@@ -1,0 +1,302 @@
+// Modal //
+.modal
+    border-radius 16px
+    box-shadow sombra
+    a
+        color color-texto-link
+    .modal-header
+        padding 16px 16px 0
+        text-align right 
+        a
+            font-size 20px
+            color color-texto-titulo
+.modal-small
+    max-width 500px
+    text-align center 
+    input
+        text-align center
+.modal-middle
+    max-width 800px
+.cont-table
+    width 100%
+    height auto
+    overflow-x scroll
+//Slider Primario//
+.sliderprimario
+    margin 50px 0 0 0
+    img
+        width 100%
+        border-radius 8px
+        margin 0 0 50px 0
+    h2
+        margin 32px 0 8px
+    .btn
+        margin 0 16px 80px 0
+    span
+        color color-texto-link
+//Bullets Slider//
+.bx-pager
+    margin 16px 0 0 
+    text-align center
+    .bx-pager-item
+        vertical-align top
+        display inline-block
+        a
+            font-size 0px
+            width 18px
+            height 18px
+            background color-bg-gris
+            display block
+            border-radius 100%
+            margin 0 5px
+            transition all 0.5s
+        .active
+            background color-bg-gris-oscuro
+//Cards de cursos//
+.card-curso
+    box-shadow sombra
+    border-radius 16px
+    padding 16px 0 0
+    margin 0 0 16px
+    background color-bg-blanco
+    h5
+        span
+            color color-secun-amarillo 
+    figure
+        width calc(100% - 32px)
+        height 130px
+        border-radius 16px
+        background color-bg-gris
+        margin 0 16px
+        text-align center
+        img
+            height 100%
+    button
+        width 100%
+    .price
+        color color-prim-verde
+    .card-curso-cont
+        padding 16px
+        button
+            margin 8px 0 0 
+    .info-user
+        background color-bg-gris-oscuro
+        color color-texto-blanco
+        font-size 12px
+        font-style italic
+        font-weight 300
+        padding 16px
+        margin 16px 0 0 
+        border-radius 0 0 16px 16px
+        i
+            font-size 20px
+            margin 10px 0 0
+//Ficha//
+.ficha
+    h1
+        margin 16px 0
+    .price
+        margin 16px 0
+    .media-ficha
+        width 100%
+        height 600px
+        border-radius 16px
+        box-shadow sombra
+        position relative
+        overflow hidden
+        display flex
+        align-items center
+        justify-content center
+        margin 0 0 32px 0
+        video
+            object-fit cover
+            width 100%
+            height 100%
+            position absolute
+            top 0
+            left 0
+//Review Star//
+.review-star
+    padding 0 !important
+    li
+        list-style none
+        display inline-block
+        vertical-align top
+        font-size 20px
+        margin 0
+        .fa-solid
+            color color-secun-amarillo 
+//Review Comentarios//
+.review-comments
+    img
+        max-width 50px
+        width 100%
+        border-radius 100%
+    .cont-comment
+        background color-bg-gris-claro
+        padding 16px
+        border-radius 8px
+        font-size 12px
+        font-style italic
+        margin 0 16px 32px 0
+        box-shadow sombra
+//Acordeon//
+    .collapsible
+        border none
+        box-shadow none
+        list-style none
+        margin 16px 0
+        padding 0 !important
+        text-align left
+        .collapsible-header
+            font-weight 500
+            font-size 16px
+            position relative
+            i
+                position absolute
+                font-size 12px
+                top 20px
+                right 0
+                transition all 0.5s
+        .active
+            .collapsible-header
+                i
+                    transform rotate(180deg)
+//Banner combo//
+    .banner-combo
+        box-shadow sombra
+        padding 16px
+        margin 32px 0
+        border-radius 16px
+        background color-bg-blanco
+        .row
+            margin 0
+        img
+            width 100%
+            max-width 200px
+        h5
+            margin 8px 0
+        i  
+            font-size 30px
+            color color-prim-gris
+            margin 30px 0 0
+//Chips//
+    .chip-verde
+        color color-prim-verde
+        background color-bg-verde
+    .chip-azul
+        color color-secun-azul
+        background color-bg-azul
+//Tabs//
+    .tabs
+        padding 0 !important
+        background color-bg-gris
+        border-radius 16px
+        box-shadow sombra
+        .indicator
+            height 100%
+            top 0
+            bottom initial
+            background color-secun-amarillo
+            border-radius 16px
+        a
+            z-index 2
+            position relative
+            background none
+            color color-texto-titulo !important
+            text-decoration none
+            text-transform initial 
+//Box content//
+    .box-shadow
+        background color-bg-blanco
+        padding 32px
+        border-radius 16px
+        box-shadow sombra
+        margin 0 0 16px 0
+        .box-shadow
+            padding 16px
+// Resumen //
+    .sumary
+        padding 0 !important
+        li
+            h6
+                margin 0 0 8px 0
+            p
+                margin 0 0 8px 0
+                font-size 12px
+            img
+                width 100%
+        .price
+            margin 0
+// CAJAS DE ACCIÓN //
+.action-box
+    border 1px solid color-texto-parrafo
+    padding 16px
+    border-radius 8px
+    display block
+    transition all 0.5s 
+    margin 0 0 16px 0
+    .row
+        margin 0
+        p
+            color color-texto-parrafo
+            transition all 0.5s 
+        i 
+            font-size 25px
+            transition all 0.5s 
+        h6
+            position relative
+            padding 0 40px 0 0 
+            transition all 0.5s 
+            i
+                color color-texto-link 
+                position absolute
+                top 50%
+                right 0
+                margin -15px 0 0 0
+    &:hover
+        background color-texto-link 
+        h6, p
+            color color-bg-blanco
+            i 
+                color color-bg-blanco
+        i 
+            color color-bg-blanco 
+// Box sede //
+.box-sede
+    i
+        color color-texto-link 
+        font-size 25px
+        margin 10px 0 0 
+    .row
+        margin 0
+// Estados //
+.state
+    height 100vh
+    i
+        font-size 100px
+.state-ok
+    background color-bg-verde 
+    i
+        color color-prim-verde
+.state-error
+    background color-bg-rojo
+    i
+        color color-secun-rojo
+.state-wait
+    background color-bg-amarillo
+    i
+        color color-secun-amarillo 
+@media (max-width: 992px)
+    //Slider Primario//
+    .sliderprimario
+        img
+            height 150px
+            max-width 100%
+            object-fit cover
+            margin 0
+    //Ficha//
+    .ficha
+        .media-ficha
+            height 200px
+    
