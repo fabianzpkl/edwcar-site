@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
     <title>Edwcar #VidaEnLaVía. Escuela de Conducción, Academia de Conducción</title>
-    <meta name="description" content="Mejoramos la calidad de vida en la vía, con cursos de conducción, seminarios, certificación de conductores y campañas de seguridad vial y cultura ciudadana">
-    <meta name="keywords" content="Escuela de conduccion, Academia de conduccion, Escuela de automovilismo, Academia de conducción Bogotá, Escuela de conducción Bogotá, CEA autorizado, curso conducción carro, curso conducción moto, Centro de Enseñanza Automovilística aprobado, Licencia de Conducción, Pase Conductor, Edwcar">
+    <meta name="description"
+        content="Mejoramos la calidad de vida en la vía, con cursos de conducción, seminarios, certificación de conductores y campañas de seguridad vial y cultura ciudadana">
+    <meta name="keywords"
+        content="Escuela de conduccion, Academia de conduccion, Escuela de automovilismo, Academia de conducción Bogotá, Escuela de conducción Bogotá, CEA autorizado, curso conducción carro, curso conducción moto, Centro de Enseñanza Automovilística aprobado, Licencia de Conducción, Pase Conductor, Edwcar">
     <meta name="author" content="Edwcar">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -82,7 +86,8 @@
             <div class="col xl8 l8 m12 s12">
 
                 <h3>Propuesta de valor Min 30 Max 50</h3>
-                <p>Min 100 Max 120 Una línea de crédito disponible para los microempresarios y emprendedores que buscan financiar capital de trabajo y el crecimiento.</p>
+                <p>Min 100 Max 120 Una línea de crédito disponible para los microempresarios y emprendedores que buscan
+                    financiar capital de trabajo y el crecimiento.</p>
 
             </div>
             <div class="col xl2 l2 m12 s12">
@@ -149,7 +154,7 @@
                         <img src="assets/images/vehiculo.png" alt="">
                     </figure>
                     <div class="card-curso-cont">
-                        <h5>Automóvil - <span>B1</span></h5>
+                        <h5>Automóvil tutulo mucho mas largo del normal - <span>B1</span></h5>
                         <p>La alternativa cómoda y segura para compartir con tu familia y amigos.</p>
                         <h5 class="price">$ 1’300.0000</h5>
                         <button class="btn">Adquirir</button>
@@ -233,13 +238,13 @@
             Herramientas para nuevos conductores
         </h3>
         <br><br>
-        <div class="row">
+        <div class="row equal-height">
             <div class="col xl3 l3 m12 s12">
                 <a href="#" class="action-box">
                     <div class="row">
                         <div class="col xl12">
                             <h6>ABC para obtener tu licencia de conducción
-                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                <i class="fa-solid fa-circle-arrow-right"></i>
                             </h6>
                             <p>Lo qué debes hacer para obtener tu licencia de conducción o pase por primera vez.</p>
                         </div>
@@ -251,7 +256,7 @@
                     <div class="row">
                         <div class="col xl12">
                             <h6>Horarios y calendario de clases teóricas
-                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                <i class="fa-solid fa-circle-arrow-right"></i>
                             </h6>
                             <p>Consulta nuestro horarios de atenión para admisiones, trámites y clases.</p>
                         </div>
@@ -263,9 +268,10 @@
                     <div class="row">
                         <div class="col xl12">
                             <h6>Consulta el estado de tu certificación ante el RUNT
-                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                <i class="fa-solid fa-circle-arrow-right"></i>
                             </h6>
-                            <p>Verifica el registro de tus datos y logros de tu curso en el RUNT para poder solicitar tu licencia de conducción o pase.</p>
+                            <p>Verifica el registro de tus datos y logros de tu curso en el RUNT para poder solicitar tu
+                                licencia de conducción o pase.</p>
                         </div>
                     </div>
                 </a>
@@ -275,13 +281,15 @@
                     <div class="row">
                         <div class="col xl12">
                             <h6>Verifica paz y salvo de comparendos en el SIMIT
-                            <i class="fa-solid fa-circle-arrow-right"></i>
+                                <i class="fa-solid fa-circle-arrow-right"></i>
                             </h6>
-                            <p>Consulta tu paz y salvo de comparendos ante el SIMIT. Es un requisito para la obtención de tu licencia de conducción o pase.</p>
+                            <p>Consulta tu paz y salvo de comparendos ante el SIMIT. Es un requisito para la obtención
+                                de tu licencia de conducción o pase.</p>
                         </div>
                     </div>
                 </a>
-            </div><P></P>
+            </div>
+            <P></P>
         </div>
         <br><br>
     </main>
