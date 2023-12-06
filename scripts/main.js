@@ -15,6 +15,9 @@ $(document).ready(function () {
     });
     //Testimoniales//
     $('.review-comments').bxSlider({
+        auto: true,
+        minSlides: 3,
+        maxSlides: 3,
         controls: false,
         pager: false,
         adaptiveHeight: true,
