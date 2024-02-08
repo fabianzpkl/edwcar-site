@@ -5,14 +5,6 @@ $(document).ready(function () {
   //Modal//
   $(".modal").modal();
 
-  //Slider Home//
-  /*$('.sliderprimario').bxSlider({
-        controls: false,
-        auto: true,
-        adaptiveHeight: true,
-        responsive: true,
-    });*/
-
   $(".sliderslick").slick({
     adaptiveHeight: true,
     dots: true,
@@ -22,14 +14,15 @@ $(document).ready(function () {
     appendArrows: false,
   });
   //Testimoniales//
-  $(".review-comments").bxSlider({
-    auto: true,
-    minSlides: 3,
-    maxSlides: 3,
-    controls: false,
-    pager: false,
+  $(".review-comments").slick({
     adaptiveHeight: true,
-    responsive: true,
+    dots: true,
+    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 7000,
+    appendArrows: false,
+    arrows: false,
+    dots: false,
   });
   //Acordeones//
   $(".collapsible").collapsible();
