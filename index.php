@@ -5,17 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
     <title>Edwcar #VidaEnLaVía. Escuela de Conducción, Academia de Conducción</title>
-    <meta name="description"
-        content="Mejoramos la calidad de vida en la vía, con cursos de conducción, seminarios, certificación de conductores y campañas de seguridad vial y cultura ciudadana">
-    <meta name="keywords"
-        content="Escuela de conduccion, Academia de conduccion, Escuela de automovilismo, Academia de conducción Bogotá, Escuela de conducción Bogotá, CEA autorizado, curso conducción carro, curso conducción moto, Centro de Enseñanza Automovilística aprobado, Licencia de Conducción, Pase Conductor, Edwcar">
+    <meta name="description" content="Mejoramos la calidad de vida en la vía, con cursos de conducción, seminarios, certificación de conductores y campañas de seguridad vial y cultura ciudadana">
+    <meta name="keywords" content="Escuela de conduccion, Academia de conduccion, Escuela de automovilismo, Academia de conducción Bogotá, Escuela de conducción Bogotá, CEA autorizado, curso conducción carro, curso conducción moto, Centro de Enseñanza Automovilística aprobado, Licencia de Conducción, Pase Conductor, Edwcar">
     <meta name="author" content="Edwcar">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="assets/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -23,7 +19,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/d70fe1760d.js" crossorigin="anonymous"></script>
     <script src="assets/js/materialize.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>-->
+    <script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/main-min.js"></script>
 
 </head>
@@ -35,50 +32,55 @@
     ?>
 
     <main class="container">
-        <div class="sliderprimario">
-            <div class="row">
-                <div class="col xl5 l6 m12 s12">
-                    <img src="assets/images/slider-plataforma.jpg" alt="">
-                </div>
+        <div class="sliderslick">
+            <div class="slide">
+                <div class="row">
+                    <div class="col xl5 l6 m12 s12">
+                        <img src="assets/images/slider-plataforma.jpg" alt="">
+                    </div>
 
-                <div class="col xl1 l1 m12 s12"></div>
-                <div class="col xl6 l5 m12 s12">
-                    <h2>Tienes control total de tu <span>aprendisaje</span></h2>
-                    <h5>Nueva plataforma virtual de alumnos</h5>
-                    <p>Elije, programa y cancela (Clases teóricas, Clases prácticas, Exámenes)</p>
-                    <br>
-                    <button class="waves-effect waves-light btn">Ir a la plataforma</button>
+                    <div class="col xl1 l1 m12 s12"></div>
+                    <div class="col xl6 l5 m12 s12">
+                        <h2>Tienes control total de tu <span>aprendisaje</span></h2>
+                        <h5>Nueva plataforma virtual de alumnos</h5>
+                        <p>Elije, programa y cancela (Clases teóricas, Clases prácticas, Exámenes)</p>
+                        <br>
+                        <button class="waves-effect waves-light btn">Ir a la plataforma</button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col xl5 l6 m12 s12">
-                    <img src="assets/images/image-slider.png" alt="">
-                </div>
+            <div class="slide">
+                <div class="row">
+                    <div class="col xl5 l6 m12 s12">
+                        <img src="assets/images/image-slider.png" alt="">
+                    </div>
 
-                <div class="col xl1 l1 m12 s12"></div>
-                <div class="col xl6 l5 m12 s12">
-                    <h2><span>#AQUÍSÍ</span> <br>Líderes en aprendisaje</h2>
-                    <h5>Estamos certificados</h5>
-                    <p>Secretaría de educación (Resolución 12-0348)<br> Minitrasporte (Resolución 006346)</p>
-                    <br>
-                    <a class="waves-effect waves-light btn">Conoce nuestros cursos</a>
+                    <div class="col xl1 l1 m12 s12"></div>
+                    <div class="col xl6 l5 m12 s12">
+                        <h2><span>#AQUÍSÍ</span> <br>Líderes en aprendisaje</h2>
+                        <h5>Estamos certificados</h5>
+                        <p>Secretaría de educación (Resolución 12-0348)<br> Minitrasporte (Resolución 006346)</p>
+                        <br>
+                        <a class="waves-effect waves-light btn">Conoce nuestros cursos</a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col xl5 l6 m12 s12">
-                    <img src="assets/images/slider-video.jpg" alt="">
-                </div>
+            <div class="slide">
+                <div class="row">
+                    <div class="col xl5 l6 m12 s12">
+                        <img src="assets/images/slider-video.jpg" alt="">
+                    </div>
 
-                <div class="col xl1 l1 m12 s12"></div>
-                <div class="col xl6 l5 m12 s12">
-                    <h2>Que no te pase <br><span>Perder la plata de tu pase</span></h2>
-                    <p>Descubre cómo aprender a manejar carro y moto</p>
-                    <br>
-                    <a class="waves-effect waves-light btn">Ver video</a>
+                    <div class="col xl1 l1 m12 s12"></div>
+                    <div class="col xl6 l5 m12 s12">
+                        <h2>Que no te pase <br><span>Perder la plata de tu pase</span></h2>
+                        <p>Descubre cómo aprender a manejar carro y moto</p>
+                        <br>
+                        <a class="waves-effect waves-light btn">Ver video</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <br><br>
         <div class="row center-align">
             <div class="col xl2 l2 m12 s12">
 

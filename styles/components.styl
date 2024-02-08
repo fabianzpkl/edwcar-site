@@ -1,3 +1,4 @@
+
 // Modal //
 .modal
     border-radius 16px
@@ -36,6 +37,44 @@
         margin 0 16px 80px 0
     span
         color color-texto-link
+.sliderslick
+    width 100%
+    overflow hidden
+    margin 140px 0 0 0
+    .slide
+        width 100%
+        display inline-block
+        vertical-align top
+        img
+            width 100%
+            border-radius 8px
+            margin 0 0 50px 0
+            height 340px
+            object-fit cover
+        h2
+            margin 32px 0 8px
+        .btn
+            margin 0 16px 20px 0
+        span
+            color color-texto-link
+    .slick-dots
+        margin 0px 0 50px
+        padding 0 !important
+        text-align center
+        li
+            margin 0 5px
+            display inline-block
+            vertical-align top
+            button
+                background color-prim-gris 
+                font-size 0px
+                border none
+                width 25px
+                height 25px
+                border-radius 100%
+        .slick-active
+            button
+                background color-prim-verde
 //Bullets Slider//
 .bx-pager
     margin 16px 0 0 
@@ -324,6 +363,13 @@
             max-width 100%
             object-fit cover
             margin 0
+    .sliderslick
+        .slide
+            img
+                height 150px
+                max-width 100%
+                object-fit cover
+                margin 0
     //Ficha//
     .ficha
         .media-ficha
