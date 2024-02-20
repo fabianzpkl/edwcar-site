@@ -260,6 +260,32 @@
                                     </div>
                                 </li>
 
+                                <li>
+                                    <div class="row">
+                                        <div class="col xl3 l3 m4 s4">
+                                            <div class="switch">
+                                                <label>
+
+                                                    <input type="checkbox">
+                                                    <span class="lever"></span>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col xl9 l9 m8 s8">
+                                            <h6><i class="fa-solid fa-stopwatch"></i> Horas extras</h6>
+                                            <p>Lorem ipsum dolor sit amet<br><a href="#">Conoce más</a></p>
+                                            <select name="" id="">
+                                                <option value="1">Paquete 2 horas ($100.000)</option>
+                                                <option value="1">Paquete 4 horas ($200.000)</option>
+                                                <option value="1">Paquete 6 horas ($400.000)</option>
+                                                <option value="1">Paquete 8 horas ($600.000)</option>
+                                                <option value="1">Paquete 10 horas ($1.000.000)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </li>
+
 
                             </ul>
 
